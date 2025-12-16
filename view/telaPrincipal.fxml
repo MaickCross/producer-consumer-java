@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaPrincipalController">
+   <children>
+      <ImageView fx:id="piso" fitHeight="720.0" fitWidth="1280.0">
+         <image>
+            <Image url="@../img/chao.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="parede_superior" fitHeight="720.0" fitWidth="1280.0" layoutY="-646.0">
+         <image>
+            <Image url="@../img/parede02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pentagrama01" layoutX="988.0" layoutY="142.0">
+         <image>
+            <Image url="@../img/pentagrama01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pentagrama02" layoutX="988.0" layoutY="142.0" visible="false">
+         <image>
+            <Image url="@../img/pentagrama02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pentagrama03" layoutX="988.0" layoutY="142.0" visible="false">
+         <image>
+            <Image url="@../img/pentagrama03.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pentagrama04" layoutX="988.0" layoutY="142.0" visible="false">
+         <image>
+            <Image url="@../img/pentagrama04.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pentagrama05" layoutX="988.0" layoutY="142.0" visible="false">
+         <image>
+            <Image url="@../img/pentagrama05.png" />
+         </image>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="boneco_voo_doo" fitHeight="64.0" fitWidth="64.0" layoutX="1052.0" layoutY="190.0" opacity="0.0" rotate="-40.6">
+         <image>
+            <Image url="@../img/boneco_voo_doo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal01_01" fitHeight="100.0" fitWidth="100.0" layoutX="330.0" layoutY="153.0">
+         <image>
+            <Image url="@../img/circulo_pedestal01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal01_02" fitHeight="100.0" fitWidth="100.0" layoutX="330.0" layoutY="153.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal01_03" fitHeight="100.0" fitWidth="100.0" layoutX="330.0" layoutY="153.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal03.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal01_04" fitHeight="100.0" fitWidth="100.0" layoutX="330.0" layoutY="153.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal04.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal01_05" fitHeight="100.0" fitWidth="100.0" layoutX="330.0" layoutY="153.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal05.png" />
+         </image>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="pedestal02_01" fitHeight="100.0" fitWidth="100.0" layoutX="245.0" layoutY="238.0">
+         <image>
+            <Image url="@../img/circulo_pedestal01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal02_02" fitHeight="100.0" fitWidth="100.0" layoutX="245.0" layoutY="238.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal02_03" fitHeight="100.0" fitWidth="100.0" layoutX="245.0" layoutY="238.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal03.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal02_04" fitHeight="100.0" fitWidth="100.0" layoutX="245.0" layoutY="238.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal04.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal02_05" fitHeight="100.0" fitWidth="100.0" layoutX="245.0" layoutY="238.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal05.png" />
+         </image>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="pedestal03_01" fitHeight="100.0" fitWidth="100.0" layoutX="295.0" layoutY="338.0">
+         <image>
+            <Image url="@../img/circulo_pedestal01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal03_02" fitHeight="100.0" fitWidth="100.0" layoutX="295.0" layoutY="338.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal03_03" fitHeight="100.0" fitWidth="100.0" layoutX="295.0" layoutY="338.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal03.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal03_04" fitHeight="100.0" fitWidth="100.0" layoutX="295.0" layoutY="338.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal04.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal03_05" fitHeight="100.0" fitWidth="100.0" layoutX="295.0" layoutY="338.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal05.png" />
+         </image>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="pedestal04_01" fitHeight="100.0" fitWidth="100.0" layoutX="355.0" layoutY="438.0">
+         <image>
+            <Image url="@../img/circulo_pedestal01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal04_02" fitHeight="100.0" fitWidth="100.0" layoutX="355.0" layoutY="438.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal04_03" fitHeight="100.0" fitWidth="100.0" layoutX="355.0" layoutY="438.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal03.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal04_04" fitHeight="100.0" fitWidth="100.0" layoutX="355.0" layoutY="438.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal04.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal04_05" fitHeight="100.0" fitWidth="100.0" layoutX="355.0" layoutY="438.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal05.png" />
+         </image>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="pedestal05_01" fitHeight="100.0" fitWidth="100.0" layoutX="324.0" layoutY="547.0">
+         <image>
+            <Image url="@../img/circulo_pedestal01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal05_02" fitHeight="100.0" fitWidth="100.0" layoutX="324.0" layoutY="547.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal05_03" fitHeight="100.0" fitWidth="100.0" layoutX="324.0" layoutY="547.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal03.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal05_04" fitHeight="100.0" fitWidth="100.0" layoutX="324.0" layoutY="547.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal04.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal05_05" fitHeight="100.0" fitWidth="100.0" layoutX="324.0" layoutY="547.0" visible="false">
+         <image>
+            <Image url="@../img/circulo_pedestal05.png" />
+         </image>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="pedestal01" layoutX="340.0" layoutY="153.0">
+         <image>
+            <Image url="@../img/pedestal.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal02" layoutX="255.0" layoutY="248.0">
+         <image>
+            <Image url="@../img/pedestal.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal03" layoutX="305.0" layoutY="348.0">
+         <image>
+            <Image url="@../img/pedestal.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal04" layoutX="365.0" layoutY="448.0">
+         <image>
+            <Image url="@../img/pedestal.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pedestal05" layoutX="334.0" layoutY="567.0">
+         <image>
+            <Image url="@../img/pedestal.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagem_produtor" fitHeight="384.0" fitWidth="480.0" layoutX="-60.0" layoutY="146.0">
+         <image>
+            <Image url="@../img/produtor.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="produzindo01" layoutX="284.0" layoutY="30.0" visible="false">
+         <image>
+            <Image url="@../img/produtor_produzir01.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="produzindo02" layoutX="199.0" layoutY="116.0" visible="false">
+         <image>
+            <Image url="@../img/produtor_produzir01.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="produzindo03" layoutX="249.0" layoutY="212.0" visible="false">
+         <image>
+            <Image url="@../img/produtor_produzir01.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="produzindo04" layoutX="309.0" layoutY="317.0" visible="false">
+         <image>
+            <Image url="@../img/produtor_produzir01.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="produzindo05" layoutX="278.0" layoutY="432.0" visible="false">
+         <image>
+            <Image url="@../img/produtor_produzir01.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="parede_inferior" fitHeight="720.0" fitWidth="1280.0" layoutY="134.0">
+         <image>
+            <Image url="@../img/parede01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="item01" fitHeight="64.0" fitWidth="64.0" layoutX="348.0" layoutY="121.0" opacity="0.0">
+         <image>
+            <Image url="@../img/vela01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="item02" fitHeight="64.0" fitWidth="64.0" layoutX="263.0" layoutY="221.0" opacity="0.0">
+         <image>
+            <Image url="@../img/vela01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="item03" fitHeight="64.0" fitWidth="64.0" layoutX="316.0" layoutY="317.0" opacity="0.0">
+         <image>
+            <Image url="@../img/vela01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="item04" fitHeight="64.0" fitWidth="64.0" layoutX="373.0" layoutY="428.0" opacity="0.0">
+         <image>
+            <Image url="@../img/vela01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="item05" fitHeight="64.0" fitWidth="64.0" layoutX="342.0" layoutY="535.0" opacity="0.0">
+         <image>
+            <Image url="@../img/vela01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vela_ritual01" layoutX="1052.0" layoutY="104.0" visible="false">
+         <image>
+            <Image url="@../img/vela01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vela_ritual02" layoutX="1129.0" layoutY="161.0" visible="false">
+         <image>
+            <Image url="@../img/vela01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vela_ritual03" layoutX="1129.0" layoutY="253.0" visible="false">
+         <image>
+            <Image url="@../img/vela02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vela_ritual04" layoutX="975.0" layoutY="253.0" visible="false">
+         <image>
+            <Image url="@../img/vela01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="vela_ritual05" layoutX="981.0" layoutY="171.0" visible="false">
+         <image>
+            <Image url="@../img/vela03.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="boneco_voodoo" layoutX="1052.0" layoutY="201.0" rotate="45.0" visible="false">
+         <image>
+            <Image url="@../img/boneco_voo_doo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caveira_ritual01_01" layoutX="956.0" layoutY="114.0" visible="false">
+         <image>
+            <Image url="@../img/caveira01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caveira_ritual02_01" layoutX="1141.0" layoutY="104.0" visible="false">
+         <image>
+            <Image url="@../img/caveira01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caveira_ritual03_01" layoutX="1052.0" layoutY="316.0" visible="false">
+         <image>
+            <Image url="@../img/caveira01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caveira_ritual01_02" layoutX="956.0" layoutY="114.0" visible="false">
+         <image>
+            <Image url="@../img/caveira02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caveira_ritual02_02" layoutX="1141.0" layoutY="104.0" visible="false">
+         <image>
+            <Image url="@../img/caveira02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caveira_ritual03_02" layoutX="1052.0" layoutY="316.0" visible="false">
+         <image>
+            <Image url="@../img/caveira02.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderConsumidor" layoutX="766.0" layoutY="667.0" max="10.0" min="1.0" rotate="-180.0" value="5.0" />
+      <Slider fx:id="sliderProdutor" layoutX="129.0" layoutY="668.0" min="10.0" rotate="-180.0" value="50.0" />
+      <ImageView fx:id="ConsumidorMorrendo" fitHeight="450.0" fitWidth="450.0" layoutX="859.0" layoutY="-89.0" visible="false">
+         <image>
+            <Image url="@../img/consumidor_morrendo/morendo01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause01Consumidor" fitHeight="64.0" fitWidth="64.0" layoutX="917.0" layoutY="643.0" smooth="false">
+         <image>
+            <Image url="@../img/botaoPause01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause01Produtor" fitHeight="64.0" fitWidth="64.0" layoutX="277.0" layoutY="643.0" smooth="false">
+         <image>
+            <Image url="@../img/botaoPause01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause02Consumidor" fitHeight="64.0" fitWidth="64.0" layoutX="917.0" layoutY="643.0" visible="false">
+         <image>
+            <Image url="@../img/botaoPause02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause02Produtor" fitHeight="64.0" fitWidth="64.0" layoutX="278.0" layoutY="644.0" visible="false">
+         <image>
+            <Image url="@../img/botaoPause02.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="botaoPauseConsumidor" layoutX="925.0" layoutY="647.0" mnemonicParsing="false" onAction="#ActionBotaoPauseConsumidor" opacity="0.0" prefHeight="57.0" prefWidth="49.0" text="PauseConsumidor" />
+      <Button fx:id="botaoPauseProdutor" layoutX="285.0" layoutY="646.0" mnemonicParsing="false" onAction="#ActionBotaoPauseProdutor" opacity="0.0" prefHeight="57.0" prefWidth="49.0" text="PauseProdutor" />
+      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="563.0" layoutY="643.0">
+         <image>
+            <Image url="@../img/botaoReset.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="botaoReset" layoutX="571.0" layoutY="646.0" mnemonicParsing="false" onAction="#ActionBotaoReset" opacity="0.0" prefHeight="57.0" prefWidth="49.0" text="reset" />
+      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="1173.0" layoutY="643.0">
+         <image>
+            <Image url="@../img/botaoSair.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagem_consumidor" fitHeight="450.0" fitWidth="450.0" layoutX="611.0" layoutY="51.0" scaleX="-1.0">
+         <image>
+            <Image url="@../img/consumidor_parado.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="botaoVoltar" layoutX="1181.0" layoutY="646.0" mnemonicParsing="false" onAction="#ActionBotaoVoltar" opacity="0.0" prefHeight="57.0" prefWidth="49.0" text="voltar" />
+   </children>
+</AnchorPane>
