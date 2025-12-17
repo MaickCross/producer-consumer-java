@@ -19,7 +19,7 @@ Todo o comportamento concorrente pode ser visualizado em tempo real através da 
 
 ## 🎯 Objetivo Acadêmico
 
-Este projeto foi desenvolvido como **trabalho proposto na disciplina de Programação Concorrente** da universidade, com fins **estritamente educacionais**, tendo como principal objetivo o estudo e a aplicação prática dos conceitos de concorrência.
+Este projeto foi desenvolvido como **trabalho proposto na disciplina de Programação Concorrente** da universidade(UESB), com fins **meramente educacionais**, tendo como principal objetivo o estudo e a aplicação prática dos conceitos de concorrência.
 
 O trabalho foca especialmente nos seguintes tópicos:
 
@@ -36,10 +36,7 @@ O trabalho foca especialmente nos seguintes tópicos:
 
 * **Java 1.8**
 * **JavaFX (UI)**
-* **Semáforos** (`Semaphore`)
-* **Threads**
-* Programação concorrente
-
+  
 ---
 
 ## 🧩 Estrutura do Projeto
@@ -53,35 +50,12 @@ resources/
 img/
 Principal.java
 ```
-
-* **controller**: lógica de controle da aplicação
-* **model**: regras de negócio e implementação do produtor, consumidor e buffer
-* **view**: interface gráfica JavaFX
-* **utils**: classes utilitárias
-* **resources / img**: recursos visuais utilizados na UI
-* **Principal.java**: ponto de entrada da aplicação
-
 ---
 
-## ▶️ Execução da Aplicação
+## ▶️ Execução
 
-A seguir estão alguns **GIFs demonstrando a execução do sistema**, evidenciando o comportamento dos produtores e consumidores em tempo real.
-
-### 🔁 Execução Geral
 
 ![Execução Geral](./img/gif-execucao-geral.gif)
-
----
-
-### 🧵 Produtor em Ação
-
-![Produtor](./img/gif-produtor.gif)
-
----
-
-### 🧵 Consumidor em Ação
-
-![Consumidor](./img/gif-consumidor.gif)
 
 ---
 
