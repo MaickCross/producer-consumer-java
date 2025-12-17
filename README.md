@@ -46,6 +46,7 @@ controller/
 model/
 view/
 img/
+utils/
 Principal.java
 ```
 ---
