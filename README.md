@@ -1,5 +1,3 @@
-# producer-consumer-java
-
 # Produtor-Consumidor com Semáforos em JavaFX
 
 ## 📌 Descrição do Projeto
@@ -21,14 +19,16 @@ Todo o comportamento concorrente pode ser visualizado em tempo real através da 
 
 ## 🎯 Objetivo Acadêmico
 
-Este trabalho foi desenvolvido com fins **educacionais**, com foco no estudo dos seguintes conceitos:
+Este projeto foi desenvolvido como **trabalho proposto na disciplina de Programação Concorrente** da universidade, com fins **estritamente educacionais**, tendo como principal objetivo o estudo e a aplicação prática dos conceitos de concorrência.
+
+O trabalho foca especialmente nos seguintes tópicos:
 
 * Programação concorrente
 * Uso de semáforos
 * Sincronização de threads
 * Região crítica
 * Problema clássico Produtor–Consumidor
-* Visualização do comportamento concorrente via interface gráfica
+* Visualização do comportamento concorrente por meio de interface gráfica
 
 ---
 
