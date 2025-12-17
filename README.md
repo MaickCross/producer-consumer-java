@@ -55,7 +55,8 @@ Principal.java
 ## ▶️ Execução
 
 
-![Execução Geral](./img/Peek 17-12-2025 18-37.gif) 
+![Execução Geral](./img/Peek%2017-12-2025%2018-37.gif)
+
 
 ---
 
