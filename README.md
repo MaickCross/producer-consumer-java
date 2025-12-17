@@ -45,8 +45,6 @@ O trabalho foca especialmente nos seguintes tópicos:
 controller/
 model/
 view/
-utils/
-resources/
 img/
 Principal.java
 ```
