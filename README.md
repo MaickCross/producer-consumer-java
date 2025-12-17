@@ -93,4 +93,5 @@ Este projeto foi desenvolvido como parte do estudo desses conceitos, permitindo 
 
 ## 👨‍💻 Autor
 
-Projeto desenvolvido por **Maick Vieira Alves** como trabalho acadêmico para estudo de programação concorrente.
+Projeto desenvolvido por [@MaickCross](https://github.com/MaickCross)
+
