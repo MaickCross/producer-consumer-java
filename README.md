@@ -60,6 +60,11 @@ Principal.java
 
 ---
 
+![Eexecução Morte](img/Peek%2017-12-2025%2018-45.gif)
+
+
+---
+
 ## 🚀 Como Executar o Projeto
 
 1. Certifique-se de estar utilizando **Java 1.8**
